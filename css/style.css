@@ -85,106 +85,254 @@ a{
 
 /* dropdown buttn */
 
-.dropdown {
+.dropdown 
+{
     position: relative;
     display: inline-block;
-  }
+}
   
-   .dropdown-content {
+.dropdown-content 
+{
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-  }
+}
   
-   .dropdown-content a {
+.dropdown-content a 
+{
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
+}
   
-    .parent li>a:hover  .dropdown-content {display: block;}
+.parent li>a:hover  .dropdown-content {display: block;}
 
-    .sidenav 
-    {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 0.5s;
-        padding-top: 60px;
-      }
+.sidenav 
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
       
-    .sidenav a 
-    {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #fff;
-        display: block;
-        transition: 0.3s;
-        text-align: center;
-    }
+.sidenav a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
       
-    .sidenav a:hover 
-    {
-        color: orange;
-    }
+.sidenav a:hover 
+{
+    color: orange;
+}
       
-    .sidenav .closebtn 
-    {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
-    }
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
       
-      @media screen and (max-height: 450px) {
-        .sidenav {padding-top: 15px;}
-        .sidenav a {font-size: 18px;}
-      }
+@media screen and (max-height: 450px) 
+{
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
 
-    .mobile-nav
-    {
-        display: none;
-    }  
-    
+.mobile-nav
+{
+    display: none;
+}  
       
-    .openbtn, .closebtn
-    {
-        cursor: pointer;
-        font-size: 35px;
-    }
-    
-    .openbtn
-    {
-        color: rgb(0, 0, 0);
-        position: absolute;
-        top: 15px;
-        right: 20px;
-        z-index: 1;
-        display: none;
-    }
+.openbtn, .closebtn
+{
+    cursor: pointer;
+    font-size: 35px;
+}
 
-    .top-bar .mobile-nav .icon1
-    {
-        padding-top: 10%;
-        display: flex;
-        padding-left: 17%;
-    }
+.openbtn
+{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    z-index: 1;
+    display: none;
+}
 
-    .top-bar .mobile-nav .icon1 i
-    {
-        font-size: 35px;
-    }
+.top-bar .mobile-nav .icon1
+{
+    padding-top: 10%;
+    display: flex;
+    padding-left: 17%;
+}
+
+.top-bar .mobile-nav .icon1 i
+{
+    font-size: 35px;
+}
+
+.slider
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: #291717;
+    padding: 5% 0 5% 0;
+}
+
+.slider h5
+{
+    color: white;
+    margin-bottom: 0;
+    font-size: 30px;
+    padding-top: 5%;
+}
+
+.slider button
+{
+    border: dashed;
+    padding: 8px 16px 8px 16px;
+    font-size: 20px;
+}
+
+.slider .wrapper
+{
+    padding-top: 70%;
+}
+
+.slider img
+{
+    width: 80%;
+    padding-top: 25%;
+}
+
+.slider .wrapper ol
+{
+    display: flow-root;
+    color: white;
+    font-size: 17px;
+}
+
+.strip
+{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    bottom: 15%;
+}
+
+.strip h4
+{
+    background-color: #d68a00;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding: 8px 0px 8px 25%;
+}
+
+.strip h6
+{
+    background-color: #27691b;
+    color: white;
+    width: 50%;
+    font-size: 20px;
+    text-align: right;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 0;
+}
+
+.strip img.left
+{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 30%;
+}
+
+.strip img.right
+{
+    position: absolute;
+    top: -70px;
+    right: 0;
+    width: 40%;
+}
+
+
+.slider i
+{
+    color: white;
+    font-size: 70px;
+}
+
+.slider h6
+{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.slider input
+{
+    background-color: #b77600;
+    color: black;
+    margin-top: 30px;
+    border-radius: 4px;
+    padding: 5px 0 5px 3px;
+    border: 1px solid orange;
+    width: 49%;
+}
+
+.slider input::placeholder
+{
+    color: #f1f1f1;
+}
+
+.slider .form .btn
+{
+
+}
+
+.slider .form .btn a
+{
+    border: 1px solid green;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    padding: 5px 8px 5px 8px;
+}
+
+.slider .form .btn i
+{
+    font-size: 15px;
+    padding-left: 5px;
+}
+
+.slider .form .btn a:hover
+{
+    background-color: #ffb52c;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
 
 
 
@@ -198,7 +346,10 @@ a{
 
 @media screen and (max-width: 1366px)
 {
-    
+    .slider ol
+    {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 768px)
@@ -240,6 +391,48 @@ a{
     {
         font-size: 14px;
     }
+
+    .slider h5
+    {
+        display: block;
+        font-size: 60px;
+    }
+
+    .slider i
+    {
+        display: none;
+    }
+
+    .slider img
+    {
+        display: none;
+    }
+
+    .slider .wrapper
+    {
+        display: none;
+    }
+
+    .slider input
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .slider .form .btn
+    {
+        padding: 15px 0px 0px 0px;
+    }
+
+    .slider .form .btn i
+    {
+        display: inline-block;
+    }
+
+    .strip
+    {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px)
@@ -265,6 +458,19 @@ a{
     {
         display: none;
     }
+
+    .slider h5
+    {
+        display: none;
+    }
+
+    .slider
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
 
    
 }
