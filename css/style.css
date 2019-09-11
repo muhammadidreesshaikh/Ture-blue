@@ -333,6 +333,147 @@ a{
     transition: 0.5s;
 }
 
+.trust
+{
+    text-align: center;
+    background-color: white;
+}
+
+.trust .main
+{
+    padding: 5% 0 15% 0;
+}
+
+.trust .side
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.trust h1 
+{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.trust h1 span
+{
+    color: #d68a00;
+}
+
+.trust h6
+{
+    font-size: 20px;
+    margin-bottom: 0;
+    color: black;
+}
+
+.trust p
+{
+    font-size: 13px;
+    margin-bottom: 0;
+    color: #545454;
+    padding-top: 5%;
+}
+
+.trust .icon
+{
+    padding-top: 30%;
+}
+
+.trust .icon1 
+{
+    
+}
+
+.trust .icon i
+{
+    text-align: center;
+    border: 3px solid #e49402;
+    border-radius: 50%;
+    padding: 25px 25px 25px 25px;
+    font-size: 40px;
+    color: #e49402;
+}
+
+.trust .icon i:hover
+{
+    color: #008e21;
+    transition: 0.5s;
+    opacity: 0.5s;
+    cursor: pointer;
+}
+
+.trust .icon .type
+{
+    padding-top: 15px
+}
+
+.trust .icon h6
+{
+    color: #009400;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.choose .pic
+{
+    
+}
+
+.choose .pic img
+{
+    width: 35%;
+    position: absolute;
+    z-index: 1;
+    bottom: -115%;
+    left: 44%;
+}
+
+.choose
+{
+    background-color: #ef9a00;
+    padding: 6% 0;
+}
+
+.choose h6
+{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.choose p
+{
+    color: black;
+    font-size: 13px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.choose ul  
+{
+    margin-bottom: 0;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.choose li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+    
+
 
 
 
@@ -433,6 +574,33 @@ a{
     {
         display: none;
     }
+
+    .trust .main
+    {
+        padding: 10% 0 15% 0;
+    }
+
+    .trust h1
+    {
+        font-size: 27px;
+    }
+
+    .trust h6
+    {
+        font-size: 17px;
+    }
+
+    .trust p
+    {
+        font-size: 12px;
+    }
+
+
+
+    .trust .side
+    {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 600px)
@@ -468,6 +636,34 @@ a{
     {
         padding-left: 5%;
         padding-right: 5%;
+    }
+
+    .trust h1
+    {
+        font-size: 30px;
+    }
+
+    .trust h6
+    {
+        font-size: 14px;
+        padding-top: 5px;
+    }
+
+    .trust .icon
+    {
+        padding-top: 10%;
+    }
+
+    .trust .icon .type
+    {
+        padding-top: 5px;
+    }
+
+
+
+    .choose .pic img
+    {
+        display: none;
     }
 
 
