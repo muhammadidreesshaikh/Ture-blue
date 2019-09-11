@@ -421,17 +421,12 @@ a{
     margin-bottom: 0;
 }
 
-.choose .pic
-{
-    
-}
-
 .choose .pic img
 {
     width: 35%;
     position: absolute;
     z-index: 1;
-    bottom: -115%;
+    bottom: -90%;
     left: 44%;
 }
 
@@ -457,7 +452,7 @@ a{
     margin-bottom: 0;
 }
 
-.choose ul  
+.choose .under ul  
 {
     margin-bottom: 0;
     list-style: none;
@@ -472,6 +467,36 @@ a{
     font-weight: 500;
 }
 
+/* Accordion */
+.accordion 
+{
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+  
+  .active, .accordion:hover 
+{
+    background-color: #ccc; 
+}
+  
+  .panel 
+{
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
     
 
 
@@ -482,7 +507,10 @@ a{
 
 @media screen and (max-width: 1920px)
 {
-
+    .accordion
+    {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1366px)
@@ -491,6 +519,12 @@ a{
     {
         font-size: 13px;
     }
+
+    .choose .pic img
+    {
+        bottom: -90%;
+    }
+
 }
 
 @media screen and (max-width: 768px)
@@ -595,12 +629,26 @@ a{
         font-size: 12px;
     }
 
-
-
     .trust .side
     {
         display: none;
     }
+
+    .choose .pic img
+    {
+        bottom: -86%;
+    }
+
+    .choose li a
+    {
+        font-size: 8px;
+    }
+
+    .choose p
+    {
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (max-width: 600px)
@@ -659,11 +707,34 @@ a{
         padding-top: 5px;
     }
 
-
-
     .choose .pic img
     {
         display: none;
+    }
+
+    .choose .under ul
+    {
+        display: none;
+    }
+
+    .accordion
+    {
+        background-color: #3a960b;
+        color: #fff;
+        text-align: center;
+        transition: 0.5s;
+        margin-top: 5%;
+        display: block;
+    }
+
+    .active, .accordion:hover
+    {
+        background-color: #0c0a06;
+    }
+
+    .panel ul
+    {
+        list-style: none;
     }
 
 
