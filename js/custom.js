@@ -22,8 +22,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-
-
 // slider-carousel
 $('.slider-carousel').slick({
   dots: false,
