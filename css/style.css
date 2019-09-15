@@ -548,6 +548,7 @@ a{
 .vehicles .icon2 i:hover
 {
     background-color: #008e21;
+    color: white;
     transition: 0.5s;
     opacity: 0.5s;
 }
@@ -589,6 +590,84 @@ a{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.bar
+{
+    background-color: #0a980a;
+}
+
+.bar h3
+{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.bar p
+{
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.bar .call
+{
+    background-color: #d9991d;
+    text-align: center;
+    padding: 10% 0 10% 0;
+}
+
+.bar .call p
+{
+    
+}
+
+.bar .btn1 
+{
+    padding-top: 5%;
+}
+
+.bar .btn1 i
+{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    background-color: black;
+}
+
+.bar .btn1 i:hover
+{
+    border-radius: 50px;
+    color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.bar .btn1 a
+{
+    padding-left: 5px;
+    color: white;
+    font-size: 17px;
+}
+
+.bar .btn1 a:hover
+{
+    color: black;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+
+/* .ture .btn1
+{
+    
+} */
+
 
 
 
@@ -745,6 +824,33 @@ a{
         font-size: 12px;
     }
 
+    .vehicles .icon2 i
+    {
+        transform: translate(20%, -10%);
+    }
+
+    .vehicles .type2 h6
+    {
+        transform: translate(50px, 20px);
+    }
+
+    .vehicles .type2 p
+    {
+        padding: 25% 7% 0 15%;
+    }
+
+    
+    .vehicles .right
+    {
+        height: 118%;
+        top: -9%;
+    }
+
+    .bar .btn1 i
+    {
+        margin-top: 5%;
+    }
+
 }
 
 @media screen and (max-width: 600px)
@@ -853,7 +959,7 @@ a{
     .vehicles .type2 p
     {
         text-align: center;
-        padding: 25px 39% 0 15%;
+        padding: 25px 47% 0 15%;
         float: left;
     }
 
